@@ -7,6 +7,9 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: #4d9f1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 header {
     background-color: #222;
@@ -21,4 +24,7 @@ header {
 }
 header p1 {
     display: inline-block;
+}
+
+footer {
 }
