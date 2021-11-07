@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 1188px;
+    width: 840px;
     background-color: #4d9f1a;
     display: flex;
     flex-direction: column;
