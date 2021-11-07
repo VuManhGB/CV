@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body {
-    height: 3508px;
-    width: 2480px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #4d9f1a;
 }
 header {
     background-color: #222;
