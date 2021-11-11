@@ -30,6 +30,7 @@ header p1 {
 
 .col1 {
     height: 400px;
+    border: 15px solid rgb(49, 243, 0);
     background-color: rgb(255, 0, 0);
 }
 
