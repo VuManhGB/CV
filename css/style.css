@@ -23,6 +23,11 @@ header p1 {
     display: inline-block;
 }
 
+.container {
+    width: 840px;
+    margin: auto;
+}
+
 .col1 {
     height: 400px;
     background-color: rgb(255, 0, 0);
