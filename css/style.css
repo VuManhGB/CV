@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 1250px;
+    height: calc(100vw * 99 / 70);
     width: 100vw;
 }
 
@@ -24,17 +24,17 @@ header p1 {
 }
 
 .col1 {
-    height: 300px;
+    height: calc((100vw * 99 / 70 - 288px) / 3);
     background-color: rgb(255, 0, 0);
 }
 
 .col2 {
-    height: 300px;
+    height: calc((100vw * 99 / 70 - 288px) / 3);
     background-color: rgb(47, 0, 255);
 }
 
 .col3 {
-    height: 300px;
+    height: calc((100vw * 99 / 70 - 288px) / 3);
     background-color: rgb(255, 238, 0);
 }
 
