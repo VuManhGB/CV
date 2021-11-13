@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 20px;
     color: rgb(0, 110, 184);
     text-transform: uppercase;
@@ -32,7 +32,11 @@ ul {
 }
 
 header {
-    height: 288px;
+    height: 270px;
+}
+
+a {
+    color: inherit;
 }
 
 .profile-img {
@@ -40,6 +44,8 @@ header {
     position: relative;
     width: 230px;
     height: 230px;
+    object-fit: cover;
+    object-position: 0 0%;
 
     margin-left: auto;
     margin-right: auto;
@@ -78,11 +84,12 @@ header h1 > small {
     width: 1000px;
     outline: var(--border-size) solid #000;
 
+    outline: 3px solid black;
     margin: auto;
 }
 
 main {
-    height: 1500px;
+    height: 1200px;
 }
 
 .col {
@@ -106,10 +113,17 @@ main {
 }
 
 .personal-info {
-    background-color: #ccc;
-    height: 500px;
+    background-color: #ddd;
+    height: 400px;
 
-    margin-top: -150px;
+    margin-top: -125px;
+    padding-top: 125px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.personal-info a {
+    text-decoration: none;
 }
 
 /* Sections */
@@ -117,9 +131,13 @@ section {
     margin-bottom: 70px;
 }
 
-section > ul {
+section:not(.skills) > ul {
     list-style: none;
     padding-left: 0;
+}
+
+section .sub-section {
+    margin-bottom: 20px;
 }
 
 section h3 {
@@ -127,15 +145,16 @@ section h3 {
 }
 
 .summary {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
 .summary h3 {
     width: 60%;
+    margin-bottom: 5px;
 }
 
-.summary .period {
+.summary .date {
     width: 40%;
     float: right;
     text-align: right;
@@ -143,4 +162,10 @@ section h3 {
 
 .summary em {
     clear: both;
+    font-weight: normal;
+}
+
+[class^="fa"] {
+    margin: 9px;
+    font-size: 1.5em;
 }
