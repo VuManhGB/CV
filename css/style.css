@@ -84,7 +84,7 @@ header h1 > small {
     width: 1000px;
     outline: var(--border-size) solid #000;
 
-    outline: 3px solid black;
+/*     outline: 3px solid black; */
     margin: auto;
 }
 
